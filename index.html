@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Tushar Shinde, a second-year Computer Science Engineering student and aspiring web developer.">
+  <meta name="theme-color" content="#0B1120">
+  <title>Tushar Shinde | CSE Student &amp; Aspiring Web Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#home">Skip to main content</a>
+
+  <!-- ================= NAVIGATION ================= -->
+  <header class="site-header" id="top">
+    <nav class="navbar" aria-label="Main navigation">
+      <a href="#home" class="logo" aria-label="Tushar Shinde, go to home section">TS<span>.</span></a>
+
+      <button class="nav-toggle" id="navToggle" type="button"
+              aria-label="Open navigation menu" aria-expanded="false" aria-controls="navMenu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">HELLO, I'M</p>
+          <h1 id="hero-title">Tushar Shinde</h1>
+          <p class="hero-subtitle">Computer Science Engineering Student | Aspiring Web Developer</p>
+
+          <p>I'm a second-year Computer Science Engineering student interested in frontend development, Java programming, and building practical software projects.</p>
+          <p>I enjoy learning how websites are structured, styled, and made interactive. I'm continuously improving my programming skills through practice and project development.</p>
+          <p>My goal is to turn what I learn into useful projects and gain practical experience in software development.</p>
+
+          <p class="tagline">"Learn. Build. Improve."</p>
+
+          <div class="button-row">
+            <a href="#projects" class="btn btn-primary">Explore My Projects</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <!--
+            PROFILE PHOTO:
+            To use your own photo, put it in the same folder (for example profile.jpg),
+            delete the <div class="profile-initials"> line below, and uncomment the <img> line.
+          -->
+          <div class="profile-frame">
+            <div class="profile-initials" role="img" aria-label="Tushar Shinde initials">TS</div>
+            <!-- <img src="profile.jpg" alt="Photograph of Tushar Shinde" class="profile-photo"> -->
+          </div>
+          <p class="branding">Building Ideas Into Digital Solutions</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section section-alt" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <h2 class="section-title" id="about-title">About Me</h2>
+        <div class="about-text">
+          <p>Hello, I'm Tushar Shinde, a second-year Computer Science Engineering student interested in frontend development and software programming.</p>
+          <p>My main technical interests include HTML, CSS, JavaScript, Java programming, and Object-Oriented Programming.</p>
+          <p>I enjoy understanding how websites are structured, how design improves user experience, and how JavaScript makes websites interactive.</p>
+          <p>Alongside web development, I'm learning programming concepts and exploring how database systems and software engineering principles are used in practical projects.</p>
+          <p>I believe that consistent practice, experimentation, and project development are important for improving technical skills.</p>
+          <p>My goal is to strengthen my programming fundamentals, build useful applications, and gain practical experience through internship opportunities.</p>
+        </div>
+
+        <div class="card-grid three">
+          <article class="card info-card">
+            <span class="card-icon" aria-hidden="true">&lt;/&gt;</span>
+            <h3>Current Focus</h3>
+            <p>Frontend Development and Responsive Websites</p>
+          </article>
+          <article class="card info-card">
+            <span class="card-icon" aria-hidden="true">{ }</span>
+            <h3>Programming Interest</h3>
+            <p>Java and Object-Oriented Programming</p>
+          </article>
+          <article class="card info-card">
+            <span class="card-icon" aria-hidden="true">&#8635;</span>
+            <h3>Learning Approach</h3>
+            <p>Practice, Build, Test, and Improve</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <h2 class="section-title" id="skills-title">Skills &amp; Technologies</h2>
+        <p class="section-subtitle">Technologies and concepts I am learning and practicing.</p>
+
+        <div class="card-grid skills-grid">
+          <article class="card skill-card">
+            <span class="card-icon" aria-hidden="true">&lt;h&gt;</span>
+            <h3>HTML5</h3>
+            <p>Structuring web pages using semantic HTML elements.</p>
+          </article>
+          <article class="card skill-card">
+            <span class="card-icon" aria-hidden="true">#</span>
+            <h3>CSS3</h3>
+            <p>Styling web pages, creating layouts, and developing responsive interfaces.</p>
+          </article>
+          <article class="card skill-card">
+            <span class="card-icon" aria-hidden="true">JS</span>
+            <h3>JavaScript</h3>
+            <p>Learning DOM manipulation, form validation, and interactive website functionality.</p>
+          </article>
+          <article class="card skill-card">
+            <span class="card-icon" aria-hidden="true">&#9749;</span>
+            <h3>Java</h3>
+            <p>Practicing programming fundamentals, classes, objects, inheritance, and abstraction.</p>
+          </article>
+          <article class="card skill-card">
+            <span class="card-icon" aria-hidden="true">OOP</span>
+            <h3>Object-Oriented Programming</h3>
+            <p>Exploring encapsulation, inheritance, polymorphism, and abstraction through Java programming.</p>
+          </article>
+          <article class="card skill-card">
+            <span class="card-icon" aria-hidden="true">&#128241;</span>
+            <h3>Responsive Web Design</h3>
+            <p>Creating layouts that adapt to mobile phones, tablets, laptops, and desktop computers.</p>
+          </article>
+          <article class="card skill-card">
+            <span class="card-icon" aria-hidden="true">&#9095;</span>
+            <h3>Git and GitHub</h3>
+            <p>Learning version control, repository management, and project sharing.</p>
+          </article>
+          <article class="card skill-card">
+            <span class="card-icon" aria-hidden="true">DB</span>
+            <h3>SQL and DBMS</h3>
+            <p>Practicing SQL queries, relational databases, database design, and data management concepts.</p>
+          </article>
+          <article class="card skill-card">
+            <span class="card-icon" aria-hidden="true">&#9881;</span>
+            <h3>Software Engineering</h3>
+            <p>Learning software development processes, requirements, project planning, and UML concepts.</p>
+          </article>
+          <article class="card skill-card">
+            <span class="card-icon" aria-hidden="true">&#9672;</span>
+            <h3>Problem Solving</h3>
+            <p>Developing logical thinking through programming practice and practical exercises.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section class="section section-alt" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <h2 class="section-title" id="projects-title">My Projects</h2>
+        <p class="section-subtitle">Projects and practical work that reflect my learning journey in web development and programming.</p>
+
+        <div class="card-grid projects-grid">
+
+          <!-- Project 1 -->
+          <article class="card project-card">
+            <div class="project-art" aria-hidden="true">
+              <span class="medical-cross"></span>
+            </div>
+            <p class="category">Web Development / Database Management</p>
+            <h3>Smart Medical Management System</h3>
+            <p>A web-based Smart Medical Management System designed to organize medical store operations through a structured interface and database management.</p>
+            <p>The project focuses on managing medicine-related information and improving the organization of pharmacy records through web development technologies.</p>
+            <ul class="tags" aria-label="Technologies used">
+              <li>PHP</li><li>SQL</li><li>HTML5</li><li>CSS3</li><li>JavaScript, where implemented</li>
+            </ul>
+            <ul class="features">
+              <li>Medicine record management</li>
+              <li>Database integration</li>
+              <li>Medical store information management</li>
+              <li>Administrative interface</li>
+              <li>Organized data handling</li>
+            </ul>
+            <div class="button-row small">
+              <span class="btn btn-disabled" aria-disabled="true">View Project</span>
+              <span class="btn btn-disabled" aria-disabled="true">Source Code</span>
+            </div>
+            <p class="status-note">Project Not Published Yet</p>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="card project-card">
+            <div class="project-art" aria-hidden="true">
+              <span class="cart-icon">&#128722;</span>
+            </div>
+            <p class="category">Web Development / Store Management</p>
+            <h3>Grocery Management Store</h3>
+            <p>A web-based Grocery Management Store project created to practice frontend development and develop a simple, user-friendly interface for grocery store operations.</p>
+            <p>The project focuses on website structure, product-related information, responsive layouts, and easy navigation.</p>
+            <ul class="tags" aria-label="Technologies used">
+              <li>HTML5</li><li>CSS3</li><li>JavaScript</li>
+            </ul>
+            <ul class="features">
+              <li>Grocery store website interface</li>
+              <li>Product information display</li>
+              <li>Website navigation</li>
+              <li>Responsive page layouts</li>
+              <li>Interactive elements, where implemented</li>
+            </ul>
+            <div class="button-row small">
+              <span class="btn btn-disabled" aria-disabled="true">View Project</span>
+              <span class="btn btn-disabled" aria-disabled="true">Source Code</span>
+            </div>
+            <p class="status-note">Project Not Published Yet</p>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="card project-card">
+            <div class="project-art" aria-hidden="true">
+              <span class="code-art">abstract class<br>&nbsp;&nbsp;Shape { }</span>
+            </div>
+            <p class="category">Java Programming / Object-Oriented Programming</p>
+            <h3>Abstract Classes and Abstract Methods in Java</h3>
+            <p>A Java programming learning project focused on understanding abstract classes, abstract methods, inheritance, and method implementation in Object-Oriented Programming.</p>
+            <p>This project helps demonstrate my interest in Java programming and object-oriented concepts.</p>
+            <ul class="tags" aria-label="Technologies used">
+              <li>Java</li>
+            </ul>
+            <ul class="features">
+              <li>Abstract classes</li>
+              <li>Abstract methods</li>
+              <li>Inheritance</li>
+              <li>Method implementation</li>
+              <li>Object-Oriented Programming fundamentals</li>
+            </ul>
+            <div class="button-row small">
+              <a href="https://github.com/25amtics255-star" class="btn btn-outline" target="_blank" rel="noopener noreferrer">View GitHub Profile</a>
+            </div>
+            <p class="status-note">Visit my GitHub profile to explore available repositories.</p>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="card project-card">
+            <div class="project-art" aria-hidden="true">
+              <span class="shape-art"><i class="sq"></i><i class="ci"></i><i class="tr"></i></span>
+            </div>
+            <p class="category">JavaScript / Interactive Web Application</p>
+            <h3>Shape Area Calculator</h3>
+            <p>An interactive web application that calculates the areas of common geometric shapes using JavaScript.</p>
+            <p>The calculator provides a simple interface, validates measurements, and displays the result with the formula.</p>
+            <ul class="tags" aria-label="Technologies used">
+              <li>HTML5</li><li>CSS3</li><li>JavaScript</li>
+            </ul>
+            <ul class="features">
+              <li>Square, rectangle, triangle, and circle</li>
+              <li>Dynamic input fields</li>
+              <li>Input validation</li>
+              <li>Result with formula</li>
+            </ul>
+            <div class="button-row small">
+              <a href="#calculator" class="btn btn-primary">Try Calculator Below</a>
+            </div>
+          </article>
+
+          <!-- Project 5 -->
+          <article class="card project-card">
+            <div class="project-art" aria-hidden="true">
+              <span class="browser-art"><i></i><i></i><i></i></span>
+            </div>
+            <p class="category">Frontend Development / Personal Branding</p>
+            <h3>Personal Portfolio Website</h3>
+            <p>A responsive personal portfolio website introducing my background, technical interests, skills, and project work in one place.</p>
+            <p>The website demonstrates my practice with HTML, CSS, JavaScript, responsive layouts, and interactive elements.</p>
+            <ul class="tags" aria-label="Technologies used">
+              <li>HTML5</li><li>CSS3</li><li>JavaScript</li>
+            </ul>
+            <ul class="features">
+              <li>Responsive navigation</li>
+              <li>About section</li>
+              <li>Skills section</li>
+              <li>Project showcase</li>
+              <li>Interactive Shape Area Calculator</li>
+              <li>Contact information</li>
+              <li>Contact form validation</li>
+              <li>Responsive layouts</li>
+            </ul>
+            <div class="button-row small">
+              <a href="https://github.com/25amtics255-star" class="btn btn-outline" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <!-- script.js turns this into a working link only when the site is hosted online -->
+              <a href="#home" class="btn btn-primary" id="liveDemoButton">Live Demo</a>
+            </div>
+            <p class="status-note" id="liveDemoNote"></p>
+          </article>
+        </div>
+
+        <!-- ===== Shape Area Calculator ===== -->
+        <div class="calculator card" id="calculator" aria-labelledby="calc-title">
+          <h3 id="calc-title">Shape Area Calculator</h3>
+          <p class="section-subtitle">Choose a shape, enter positive measurements, and calculate the area.</p>
+
+          <form id="calcForm" novalidate>
+            <div class="form-group">
+              <label for="shapeSelect">Shape</label>
+              <select id="shapeSelect" name="shape">
+                <option value="square">Square</option>
+                <option value="rectangle">Rectangle</option>
+                <option value="triangle">Triangle</option>
+                <option value="circle">Circle</option>
+              </select>
+            </div>
+
+            <!-- Input fields are created by script.js based on the chosen shape -->
+            <div id="calcInputs" class="calc-inputs"></div>
+
+            <div class="button-row small">
+              <button type="submit" class="btn btn-primary">Calculate Area</button>
+              <button type="button" class="btn btn-outline" id="calcReset">Reset</button>
+            </div>
+          </form>
+
+          <p id="calcError" class="error-message" role="alert"></p>
+          <div id="calcResult" class="calc-result" aria-live="polite" hidden>
+            <p class="result-formula" id="calcFormula"></p>
+            <p class="result-value" id="calcValue"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 class="section-title" id="contact-title">Let's Connect</h2>
+        <p class="section-subtitle">I'm interested in learning, building projects, and connecting with people who share an interest in technology.</p>
+        <p class="section-subtitle">If you'd like to discuss my projects, web development, Java programming, or internship opportunities, feel free to contact me.</p>
+
+        <div class="contact-grid">
+          <div class="card contact-details">
+            <h3>Contact Details</h3>
+            <p><strong>Name:</strong> Tushar Shinde</p>
+            <p><strong>Email:</strong> <a href="mailto:tusharshinde766613@gmail.com">tusharshinde766613@gmail.com</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/25amtics255-star" target="_blank" rel="noopener noreferrer">github.com/25amtics255-star</a></p>
+          </div>
+
+          <form class="card contact-form" id="contactForm" novalidate>
+            <h3>Send a Message</h3>
+
+            <div class="form-group">
+              <label for="contactName">Name</label>
+              <input type="text" id="contactName" name="name" autocomplete="name" aria-describedby="nameError" required>
+              <p class="field-error" id="nameError"></p>
+            </div>
+
+            <div class="form-group">
+              <label for="contactEmail">Email</label>
+              <input type="email" id="contactEmail" name="email" autocomplete="email" aria-describedby="emailError" required>
+              <p class="field-error" id="emailError"></p>
+            </div>
+
+            <div class="form-group">
+              <label for="contactMessage">Message</label>
+              <textarea id="contactMessage" name="message" rows="5" aria-describedby="messageError" required></textarea>
+              <p class="field-error" id="messageError"></p>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <p id="formFeedback" class="form-feedback" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p class="footer-name">Tushar Shinde</p>
+        <p>Computer Science Engineering Student | Aspiring Web Developer</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/25amtics255-star" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="mailto:tusharshinde766613@gmail.com">Email</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year">2026</span> Tushar Shinde. All rights reserved.</p>
+      <button type="button" class="btn btn-outline" id="backToTop">Back to Top &#8593;</button>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
